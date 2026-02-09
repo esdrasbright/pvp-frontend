@@ -79,7 +79,7 @@ const SocketContext = createContext<SocketContextType | undefined>(undefined);
 // CONFIGURATION
 // ============================================
 
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3001";
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 
 // ============================================
 // PROVIDER
