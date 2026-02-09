@@ -240,7 +240,7 @@ export function SocketProvider({ children }: { children: ReactNode }) {
   // Fonctions d'authentification
   // ----------------------------------------
   const loginWithDiscord = useCallback(() => {
-    window.location.href = `${SERVER_URL}/auth/discord`;
+    window.location.href = `${process.env.NEXT_PUBLIC_SERVER_URL}/auth/discord`;
   }, []);
 
   const logout = useCallback(async () => {
