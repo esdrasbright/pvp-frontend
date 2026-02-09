@@ -220,7 +220,7 @@ export function SocketProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     async function checkSession() {
       try {
-        const res = await fetch(`${SERVER_URL}/auth/me`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auth/me`, {
           credentials: "include",
         });
         if (res.ok) {
@@ -240,12 +240,12 @@ export function SocketProvider({ children }: { children: ReactNode }) {
   // Fonctions d'authentification
   // ----------------------------------------
   const loginWithDiscord = useCallback(() => {
-    window.location.href = `${process.env.NEXT_PUBLIC_SERVER_URL}/auth/discord`;
+    window.location.href = `${process.env.NEXT_PUBLIC_SERVER_URL}auth/discord`;
   }, []);
 
   const logout = useCallback(async () => {
     try {
-      await fetch(`${SERVER_URL}/auth/logout`, {
+      await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auth/logout`, {
         method: "POST",
         credentials: "include",
       });
