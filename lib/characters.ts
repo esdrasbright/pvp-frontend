@@ -1,4 +1,4 @@
-// Configuration des personnages Wuthering Waves
+ // Configuration des personnages Wuthering Waves
 // Pour ajouter des images, modifiez le champ "image" avec l'URL de l'image
 // Format d'image recommandé: PNG ou WebP, taille: 256x256px ou 512x512px
 
@@ -35,21 +35,12 @@ export interface Character {
 export const characters: Character[] = [
   // 5 étoiles - Spectro
   {
-    id: "rover-spectro",
-    name: "Rover (Spectro)",
+    id: "rover",
+    name: "Rover",
     element: "Spectro",
     rarity: 5,
     maxSequence: 6,
-    image: "", // Exemple: "/characters/rover-spectro.png" ou URL externe
-    points: { whiwa: [10, 12, 14, 16, 18, 20, 22], toa: [12, 14, 16, 18, 20, 22, 24] }
-  },
-  {
-    id: "rover-havoc",
-    name: "Rover (Havoc)",
-    element: "Havoc",
-    rarity: 5,
-    maxSequence: 6,
-    image: "",
+    image: "MC_Female.png", // Exemple: "/characters/rover-spectro.png" ou URL externe
     points: { whiwa: [10, 12, 14, 16, 18, 20, 22], toa: [12, 14, 16, 18, 20, 22, 24] }
   },
   // 5 étoiles - Glacio
@@ -59,7 +50,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Lingyang.png",
     points: { whiwa: [8, 10, 12, 14, 16, 18, 20], toa: [10, 12, 14, 16, 18, 20, 22] }
   },
   {
@@ -68,7 +59,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Zhezhi_icon.png",
     points: { whiwa: [12, 14, 16, 18, 20, 22, 24], toa: [14, 16, 18, 20, 22, 24, 26] }
   },
   {
@@ -77,7 +68,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Carlotta_icon.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   // 5 étoiles - Fusion
@@ -87,7 +78,7 @@ export const characters: Character[] = [
     element: "Fusion",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Changli_icon.png",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
@@ -96,7 +87,7 @@ export const characters: Character[] = [
     element: "Fusion",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Anke.png",
     points: { whiwa: [12, 14, 16, 18, 20, 22, 24], toa: [14, 16, 18, 20, 22, 24, 26] }
   },
   // 5 étoiles - Electro
@@ -106,7 +97,7 @@ export const characters: Character[] = [
     element: "Electro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Calcharo.png",
     points: { whiwa: [10, 12, 14, 16, 18, 20, 22], toa: [12, 14, 16, 18, 20, 22, 24] }
   },
   {
@@ -115,7 +106,7 @@ export const characters: Character[] = [
     element: "Electro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "yinlin-1.png",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
@@ -124,7 +115,7 @@ export const characters: Character[] = [
     element: "Electro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Xiangli-Yao-icon.png",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   // 5 étoiles - Aero
@@ -134,7 +125,7 @@ export const characters: Character[] = [
     element: "Aero",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Jiyan.png",
     points: { whiwa: [12, 14, 16, 18, 20, 22, 24], toa: [14, 16, 18, 20, 22, 24, 26] }
   },
   {
@@ -143,7 +134,7 @@ export const characters: Character[] = [
     element: "Spectro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Jinshi_icon.png",
     points: { whiwa: [16, 18, 20, 22, 24, 26, 28], toa: [18, 20, 22, 24, 26, 28, 30] }
   },
   {
@@ -152,7 +143,7 @@ export const characters: Character[] = [
     element: "Spectro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Shorekeeper-icon.webp",
     points: { whiwa: [16, 18, 20, 22, 24, 26, 28], toa: [18, 20, 22, 24, 26, 28, 30] }
   },
   // 5 étoiles - Havoc
@@ -162,7 +153,7 @@ export const characters: Character[] = [
     element: "Havoc",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Danjin.png",
     points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
   },
   {
@@ -171,7 +162,7 @@ export const characters: Character[] = [
     element: "Havoc",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Camellya_icon.webp",
     points: { whiwa: [16, 18, 20, 22, 24, 26, 28], toa: [18, 20, 22, 24, 26, 28, 30] }
   },
   // 4 étoiles - Glacio
@@ -181,7 +172,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Sanhua.png",
     points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
   },
   {
@@ -190,7 +181,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Bailian.png",
     points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
   },
   {
@@ -199,7 +190,7 @@ export const characters: Character[] = [
     element: "Glacio",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Youhu-icon.webp",
     points: { whiwa: [5, 6, 7, 8, 9, 10, 11], toa: [6, 7, 8, 9, 10, 11, 12] }
   },
   // 4 étoiles - Fusion
@@ -209,7 +200,7 @@ export const characters: Character[] = [
     element: "Fusion",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Chixia.png",
     points: { whiwa: [3, 4, 5, 6, 7, 8, 9], toa: [4, 5, 6, 7, 8, 9, 10] }
   },
   {
@@ -218,7 +209,7 @@ export const characters: Character[] = [
     element: "Fusion",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Mortefi.png",
     points: { whiwa: [5, 6, 7, 8, 9, 10, 11], toa: [6, 7, 8, 9, 10, 11, 12] }
   },
   // 4 étoiles - Electro
@@ -228,7 +219,7 @@ export const characters: Character[] = [
     element: "Electro",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Yuanwu.png",
     points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
   },
   {
@@ -237,7 +228,7 @@ export const characters: Character[] = [
     element: "Electro",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Lumi_icon.webp",
     points: { whiwa: [3, 4, 5, 6, 7, 8, 9], toa: [4, 5, 6, 7, 8, 9, 10] }
   },
   // 4 étoiles - Aero
@@ -247,7 +238,7 @@ export const characters: Character[] = [
     element: "Aero",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Wave-YangYang.png",
     points: { whiwa: [3, 4, 5, 6, 7, 8, 9], toa: [4, 5, 6, 7, 8, 9, 10] }
   },
   {
@@ -256,7 +247,7 @@ export const characters: Character[] = [
     element: "Aero",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Wave-Aalto.png",
     points: { whiwa: [3, 4, 5, 6, 7, 8, 9], toa: [4, 5, 6, 7, 8, 9, 10] }
   },
   {
@@ -265,7 +256,7 @@ export const characters: Character[] = [
     element: "Aero",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Jianxin.png",
     points: { whiwa: [10, 12, 14, 16, 18, 20, 22], toa: [12, 14, 16, 18, 20, 22, 24] }
   },
   // 4 étoiles - Spectro
@@ -275,26 +266,17 @@ export const characters: Character[] = [
     element: "Spectro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Verina.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
-  {
-    id: "the-shorekeeper",
-    name: "The Shorekeeper",
-    element: "Spectro",
-    rarity: 5,
-    maxSequence: 6,
-    image: "",
-    points: { whiwa: [16, 18, 20, 22, 24, 26, 28], toa: [18, 20, 22, 24, 26, 28, 30] }
-  },
-  // 4 étoiles - Havoc
+    // 4 étoiles - Havoc
   {
     id: "taoqi",
     name: "Taoqi",
     element: "Havoc",
     rarity: 4,
     maxSequence: 6,
-    image: "",
+    image: "Wuthering-Waves-Taoqi.png",
     points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
   },
   // Nouveaux personnages
@@ -304,7 +286,7 @@ export const characters: Character[] = [
     element: "Havoc",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Roccia_icon.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
@@ -313,7 +295,7 @@ export const characters: Character[] = [
     element: "Spectro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Phoebe.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
@@ -322,7 +304,7 @@ export const characters: Character[] = [
     element: "Fusion",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Brant.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
@@ -331,16 +313,89 @@ export const characters: Character[] = [
     element: "Havoc",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Cantarella.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   },
   {
-    id: "zani",
-    name: "Zani",
+    id: "augusta",
+    name: "Augusta",
     element: "Electro",
     rarity: 5,
     maxSequence: 6,
-    image: "",
+    image: "Augusta-icon.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "buling",
+    name: "Buling",
+    element: "Electro",
+    rarity: 4,
+    maxSequence: 6,
+    image: "Buling.webp",
+    points: { whiwa: [4, 5, 6, 7, 8, 9, 10], toa: [5, 6, 7, 8, 9, 10, 11] }
+  },
+  {
+    id: "iuno",
+    name: "Iuno",
+    element: "Aero",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Iuno.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "phrolova",
+    name: "Phrolova",
+    element: "Havoc",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Phrolova-icon.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "qiuyuan",
+    name: "Qiuyuan",
+    element: "Aero",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Qiuyuan.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "galbrena",
+    name: "Galbrena",
+    element: "Fusion",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Galbrena.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "lynae",
+    name: "Lynae",
+    element: "Spectro",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Lynae.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+  {
+    id: "mornye",
+    name: "Mornye",
+    element: "Fusion",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Mornye.webp",
+    points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
+  },
+
+  {
+    id: "zani",
+    name: "Zani",
+    element: "Spectro",
+    rarity: 5,
+    maxSequence: 6,
+    image: "Zani_Icon.webp",
     points: { whiwa: [14, 16, 18, 20, 22, 24, 26], toa: [16, 18, 20, 22, 24, 26, 28] }
   }
 ];
